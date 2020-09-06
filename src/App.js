@@ -1,20 +1,20 @@
-import React, { useState } from "react";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import "./helpers/fontAwesome";
-import "./styles/main.scss";
+import React, { useState } from 'react';
+import { HashRouter as Router, Switch, Route } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import './helpers/fontAwesome';
+import './styles/main.scss';
 
-import englishText from "./data/englishText";
-import russianText from "./data/russianText";
+import englishText from './data/englishText';
+import russianText from './data/russianText';
 
-import Navbar from "./components/navbar-components/Navbar";
-import Footer from "./components/footer-components/Footer";
+import Navbar from './components/navbar-components/Navbar';
+import Footer from './components/footer-components/Footer';
 
-import Home from "./pages/Home";
-import Portfolio from "./pages/Portfolio";
-import Resume from "./pages/Resume";
+import Home from './pages/Home';
+import Portfolio from './pages/Portfolio';
+import Resume from './pages/Resume';
 
-import Context from "./context";
+import Context from './context';
 
 export default function App() {
   const DEFAULT_TEXT_CONTENT = englishText;
