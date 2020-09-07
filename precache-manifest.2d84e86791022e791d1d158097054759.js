@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3cd4fccd362d233fd2d4d9a5c60bc5e1",
+    "revision": "0402a18af8cfd533c2d46bbcffc7d09a",
     "url": "/portfolio-page-template/index.html"
   },
   {
-    "revision": "31bcb9860cbd2b0e8681",
-    "url": "/portfolio-page-template/static/css/main.e5c673c4.chunk.css"
+    "revision": "a63b224f5a15d5a57ed4",
+    "url": "/portfolio-page-template/static/css/main.0d0116f4.chunk.css"
   },
   {
     "revision": "3344c3a9a63f3519fefc",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio-page-template/static/js/2.6585b25a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "31bcb9860cbd2b0e8681",
+    "revision": "a63b224f5a15d5a57ed4",
     "url": "/portfolio-page-template/static/js/main.66cd63c7.chunk.js"
   },
   {
@@ -25,6 +25,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   },
   {
     "revision": "f0ee75c96965b35021e41634a91c5ac4",
-    "url": "/portfolio-page-template/static/media/bg-image-mountains.f0ee75c9.jpg"
+    "url": "/portfolio-page-template/static/media/bg-image-mountain.f0ee75c9.jpg"
   }
 ]);
