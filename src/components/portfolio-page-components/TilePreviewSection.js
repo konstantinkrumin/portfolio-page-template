@@ -1,20 +1,21 @@
-import React, { useContext } from "react";
-import Context from "../../context";
+import React, { useContext } from 'react';
+import Context from '../../context';
 
-import ButtonFilled from "../buttons/ButtonFilled";
+import ButtonFilled from '../buttons/ButtonFilled';
 
 export default function TilePreviewSection({
   imagePreview,
   liveLink,
-  codeSourceLink
+  codeSourceLink,
 }) {
   const { textContent } = useContext(Context);
 
   var divStyle = {
-    backgroundImage: "url(" + imagePreview + ")",
-    backgroundSize: "100%",
-    backgroundPosition: "center",
-    objectFit: "cover"
+    // backgroundImage: 'url("' + imagePreview + '")',
+    backgroundImage: `url(${imagePreview})`,
+    backgroundSize: '100%',
+    backgroundPosition: 'center',
+    objectFit: 'cover',
   };
 
   return (

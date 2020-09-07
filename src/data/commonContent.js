@@ -22,7 +22,7 @@ const commonContent = {
       },
     },
     markdownPreviewer: {
-      imagePreview: '../images/portfolio-preview/mardown-previewer.jpg',
+      imagePreview: '../../images/portfolio-preview/markdown-previewer.jpg',
       // imagePreview: 'https://i.imgur.com/72aHjJo.jpg',
       links: {
         liveProject: 'https://codepen.io/konstantinkrumin/full/YzweoYo',
