@@ -1,19 +1,23 @@
-@import 'variables';
+@import "variables";
 
 /* BODY */
-.main-section, .resume-section, .portfolio-section {
+.main-section,
+.resume-section,
+.portfolio-section {
   height: $default-body-height;
   margin-top: $default-nav-height;
   margin-bottom: $default-footer-height;
 }
 
-.main-section, .resume-section {
-  background-image: url(https://i.imgur.com/m0JiKyc.jpg);
+.main-section,
+.resume-section {
+  background-image: url("../images/bg-image-mountains.jpg");
   background-position: center;
   object-fit: cover;
 }
 
-.resume-section, .portfolio-section {
+.resume-section,
+.portfolio-section {
   display: flex;
   justify-content: center;
   align-items: center;
