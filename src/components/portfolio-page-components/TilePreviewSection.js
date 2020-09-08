@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import React, { useEffect, useContext } from 'react';
 import Context from '../../context';
 
 import ButtonFilled from '../buttons/ButtonFilled';
@@ -10,8 +10,8 @@ export default function TilePreviewSection({
 }) {
   const { textContent } = useContext(Context);
 
-  var divStyle = {
-    backgroundImage: 'url("' + imagePreview + '")',
+  let divStyle = {
+    backgroundImage: 'url(' + imagePreview + ')',
     backgroundSize: '100%',
     backgroundPosition: 'center',
     objectFit: 'cover',
