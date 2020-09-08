@@ -11,8 +11,7 @@ export default function TilePreviewSection({
   const { textContent } = useContext(Context);
 
   var divStyle = {
-    // backgroundImage: 'url("' + imagePreview + '")',
-    backgroundImage: `url(${imagePreview})`,
+    backgroundImage: 'url("' + imagePreview + '")',
     backgroundSize: '100%',
     backgroundPosition: 'center',
     objectFit: 'cover',

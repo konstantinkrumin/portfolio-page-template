@@ -1,28 +1,31 @@
 const commonContent = {
   portfolio: {
     calculator: {
-      imagePreview: 'https://i.imgur.com/QnETdyT.jpg',
+      imagePreview: '/src/images/portfolio-preview/calculator.jpg',
+      // imagePreview: 'https://i.imgur.com/QnETdyT.jpg',
       links: {
         liveProject: 'https://codepen.io/konstantinkrumin/full/yLexQmy',
         codeSource: 'https://github.com/konstantinkrumin/javascript-calculator',
       },
     },
     pomodoroClock: {
-      imagePreview: 'https://i.imgur.com/TQIucZr.jpg',
+      imagePreview: '/src/images/portfolio-preview/pomodoro-clock.jpg',
+      // imagePreview: 'https://i.imgur.com/TQIucZr.jpg',
       links: {
         liveProject: 'https://codepen.io/konstantinkrumin/full/ZEbZNOa',
         codeSource: 'https://github.com/konstantinkrumin/pomodoro-clock',
       },
     },
     drumMachine: {
-      imagePreview: 'https://i.imgur.com/LVrnFeX.jpg',
+      imagePreview: '/src/images/portfolio-preview/drum-machine.jpg',
+      // imagePreview: 'https://i.imgur.com/LVrnFeX.jpg',
       links: {
         liveProject: 'https://codepen.io/konstantinkrumin/full/wvMLxeQ',
         codeSource: 'https://github.com/konstantinkrumin/drum-machine',
       },
     },
     markdownPreviewer: {
-      imagePreview: '../../images/portfolio-preview/markdown-previewer.jpg',
+      imagePreview: '/src/images/portfolio-preview/markdown-previewer.jpg',
       // imagePreview: 'https://i.imgur.com/72aHjJo.jpg',
       links: {
         liveProject: 'https://codepen.io/konstantinkrumin/full/YzweoYo',
@@ -30,7 +33,8 @@ const commonContent = {
       },
     },
     randomQuoteMachine: {
-      imagePreview: 'https://i.imgur.com/PgVJw4j.jpg',
+      imagePreview: '/src/images/portfolio-preview/random-quote-machine.jpg',
+      // imagePreview: 'https://i.imgur.com/PgVJw4j.jpg',
       links: {
         liveProject: 'https://codepen.io/konstantinkrumin/full/LYGQepE',
         codeSource: 'https://github.com/konstantinkrumin/random-quote-machine',
