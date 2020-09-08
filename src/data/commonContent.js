@@ -1,7 +1,6 @@
 const commonContent = {
   portfolio: {
     calculator: {
-      // imagePreview: '/src/images/portfolio-preview/calculator.jpg',
       imagePreview:
         'https://github.com/konstantinkrumin/portfolio-page-template/blob/master/src/images/portfolio-preview/calculator.jpg?raw=true',
       links: {
@@ -10,7 +9,6 @@ const commonContent = {
       },
     },
     pomodoroClock: {
-      // imagePreview: '/src/images/portfolio-preview/pomodoro-clock.jpg',
       imagePreview:
         'https://github.com/konstantinkrumin/portfolio-page-template/blob/master/src/images/portfolio-preview/pomodoro-clock.jpg?raw=true',
       links: {
@@ -19,7 +17,6 @@ const commonContent = {
       },
     },
     drumMachine: {
-      // imagePreview: '/src/images/portfolio-preview/drum-machine.jpg',
       imagePreview:
         'https://github.com/konstantinkrumin/portfolio-page-template/blob/master/src/images/portfolio-preview/drum-machine.jpg?raw=true',
       links: {
@@ -28,7 +25,6 @@ const commonContent = {
       },
     },
     markdownPreviewer: {
-      // imagePreview: '/src/images/portfolio-preview/markdown-previewer.jpg',
       imagePreview:
         'https://github.com/konstantinkrumin/portfolio-page-template/blob/master/src/images/portfolio-preview/markdown-previewer.jpg?raw=true',
       links: {
@@ -37,7 +33,6 @@ const commonContent = {
       },
     },
     randomQuoteMachine: {
-      // imagePreview: '/src/images/portfolio-preview/random-quote-machine.jpg',
       imagePreview:
         'https://github.com/konstantinkrumin/portfolio-page-template/blob/master/src/images/portfolio-preview/random-quote-machine.jpg?raw=true',
       links: {
@@ -46,7 +41,6 @@ const commonContent = {
       },
     },
     speedTypingGame: {
-      // imagePreview: '/src/images/portfolio-preview/speed-typing-game.jpg',
       imagePreview:
         'https://github.com/konstantinkrumin/portfolio-page-template/blob/master/src/images/portfolio-preview/speed-typing-game.jpg?raw=true',
       links: {
@@ -55,7 +49,6 @@ const commonContent = {
       },
     },
     picSomeApp: {
-      // imagePreview: '/src/images/portfolio-preview/pic-some-app.jpg',
       imagePreview:
         'https://github.com/konstantinkrumin/portfolio-page-template/blob/master/src/images/portfolio-preview/pic-some-app.jpg?raw=true',
       links: {
@@ -64,7 +57,6 @@ const commonContent = {
       },
     },
     heatMap: {
-      // imagePreview: '/src/images/portfolio-preview/heat-map-dataviz.jpg',
       imagePreview:
         'https://github.com/konstantinkrumin/portfolio-page-template/blob/master/src/images/portfolio-preview/heat-map-dataviz.jpg?raw=true',
       links: {
@@ -73,7 +65,6 @@ const commonContent = {
       },
     },
     choroplethMap: {
-      // imagePreview: '/src/images/portfolio-preview/choropleth-map-dataviz.jpg',
       imagePreview:
         'https://github.com/konstantinkrumin/portfolio-page-template/blob/master/src/images/portfolio-preview/choropleth-map-dataviz.jpg?raw=true',
       links: {
@@ -83,9 +74,8 @@ const commonContent = {
       },
     },
     scatterplotDiagram: {
-      // imagePreview: '/src/images/portfolio-preview/scatterplot-dataviz.jpg',
       imagePreview:
-        'https://github.com/konstantinkrumin/portfolio-page-template/blob/master/src/images/portfolio-preview/bar-chart-dataviz.jpg?raw=true',
+        'https://github.com/konstantinkrumin/portfolio-page-template/blob/master/src/images/portfolio-preview/scatterplot-dataviz.jpg?raw=true',
       links: {
         liveProject: 'https://codepen.io/konstantinkrumin/full/QWbeNpZ',
         codeSource:
@@ -93,7 +83,6 @@ const commonContent = {
       },
     },
     barChart: {
-      // imagePreview: '/src/images/portfolio-preview/bar-chart-dataviz.jpg',
       imagePreview:
         'https://github.com/konstantinkrumin/portfolio-page-template/blob/master/src/images/portfolio-preview/bar-chart-dataviz.jpg?raw=true',
       links: {
@@ -102,7 +91,6 @@ const commonContent = {
       },
     },
     treemapDiagram: {
-      // imagePreview: '/src/images/portfolio-preview/treemap-diagram-dataviz.jpg',
       imagePreview:
         'https://github.com/konstantinkrumin/portfolio-page-template/blob/master/src/images/portfolio-preview/treemap-diagram-dataviz.jpg?raw=true',
       links: {
@@ -112,8 +100,6 @@ const commonContent = {
       },
     },
     productLandingPage: {
-      // imagePreview:
-      // '/src/images/portfolio-preview/static-product-landing-page.jpg',
       imagePreview:
         'https://github.com/konstantinkrumin/portfolio-page-template/blob/master/src/images/portfolio-preview/static-product-landing-page.jpg?raw=true',
       links: {
@@ -123,7 +109,6 @@ const commonContent = {
       },
     },
     techDocPage: {
-      // imagePreview: '/src/images/portfolio-preview/tech-doc-page.jpg',
       imagePreview:
         'https://github.com/konstantinkrumin/portfolio-page-template/blob/master/src/images/portfolio-preview/tech-doc-page.jpg?raw=true',
       links: {
@@ -133,7 +118,6 @@ const commonContent = {
       },
     },
     portfolioPageV1: {
-      // imagePreview: '/src/images/portfolio-preview/portfolio-page-v1.jpg',
       imagePreview:
         'https://github.com/konstantinkrumin/portfolio-page-template/blob/master/src/images/portfolio-preview/portfolio-page-v1.jpg?raw=true',
       links: {
@@ -142,8 +126,6 @@ const commonContent = {
       },
     },
     portfolioPageThisSite: {
-      // imagePreview:
-      // '/src/images/portfolio-preview/portfolio-page-this-site.jpg',
       imagePreview:
         'https://github.com/konstantinkrumin/portfolio-page-template/blob/master/src/images/portfolio-preview/portfolio-page-this-site.jpg?raw=true',
       links: {
