@@ -5,7 +5,7 @@ const englishText = {
   downloads: {
     resume:
       'https://github.com/konstantinkrumin/portfolio-page-template/blob/master/src/static/Resume_Konstantin_Krumin.pdf',
-    cv: '',
+    cv: 'https://github.com/konstantinkrumin/portfolio-page-template/blob/master/src/static/CV_Konstantin_Krumin.pdf',
   },
   navigation: {
     home: 'Home',

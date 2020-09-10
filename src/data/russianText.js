@@ -5,7 +5,7 @@ let russianText = {
   downloads: {
     resume:
       'https://github.com/konstantinkrumin/portfolio-page-template/blob/master/src/static/Резюме_Константин_Крумин.pdf',
-    cv: '',
+    cv: 'https://github.com/konstantinkrumin/portfolio-page-template/blob/master/src/static/CV_Konstantin_Krumin_2.pdf',
   },
   navigation: {
     home: 'Про меня',

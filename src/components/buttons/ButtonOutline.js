@@ -2,10 +2,19 @@ import React, { useContext } from 'react';
 import Context from '../../context';
 
 export default function ButtonOutline(props) {
-  const { FontAwesomeIcon } = useContext(Context);
+  const { FontAwesomeIcon, textContent } = useContext(Context);
 
   return (
-    <button className="button-outline">
+    <button
+      type="button"
+      target="_blank"
+      href={
+        props.isCV === true
+          ? textContent.downloads.cv
+          : textContent.downloads.resume
+      }
+      className="button-outline"
+    >
       <FontAwesomeIcon icon={props.icon} /> {props.title}
     </button>
   );
