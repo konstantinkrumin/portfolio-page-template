@@ -10,7 +10,7 @@ export default function ResumeButton() {
       // target="_blank"
       // download="Resume (Konstantin Krumin).pdf"
       // href="https://github.com/konstantinkrumin/portfolio-page-template/blob/master/src/static/resume_eng.pdf"
-      href="../../static/resume_eng.pdf"
+      href="/static/resume/resume_eng.pdf"
       download
       className="button button-download-resume"
     >
