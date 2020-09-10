@@ -6,12 +6,9 @@ export default function ResumeButton() {
 
   return (
     <a
-      // type="button"
-      // target="_blank"
-      // download="Resume (Konstantin Krumin).pdf"
-      // href="https://github.com/konstantinkrumin/portfolio-page-template/blob/master/src/static/resume_eng.pdf"
-      href="/resume/resume_eng.pdf"
-      download
+      type="button"
+      target="_blank"
+      href={textContent.downloads.resume}
       className="button button-download-resume"
     >
       <FontAwesomeIcon icon={['fas', 'cloud-download-alt']} />{' '}
