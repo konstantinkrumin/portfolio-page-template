@@ -1,13 +1,18 @@
-import React, { useContext } from "react";
-import Context from "../../context";
+import React, { useContext } from 'react';
+import Context from '../../context';
 
 export default function ResumeButton() {
   const { FontAwesomeIcon, textContent } = useContext(Context);
 
   return (
-    <span type="button" className="button button-download-resume">
-      <FontAwesomeIcon icon={["fas", "cloud-download-alt"]} />{" "}
+    <a
+      type="button"
+      download="Resume (Konstantin Krumin).pdf"
+      href="../../static/resume_eng.pdf"
+      className="button button-download-resume"
+    >
+      <FontAwesomeIcon icon={['fas', 'cloud-download-alt']} />{' '}
       {textContent.navigation.resume}
-    </span>
+    </a>
   );
 }
