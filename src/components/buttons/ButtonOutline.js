@@ -5,7 +5,7 @@ export default function ButtonOutline(props) {
   const { FontAwesomeIcon, textContent } = useContext(Context);
 
   return (
-    <button
+    <a
       type="button"
       target="_blank"
       href={
@@ -16,6 +16,6 @@ export default function ButtonOutline(props) {
       className="button-outline"
     >
       <FontAwesomeIcon icon={props.icon} /> {props.title}
-    </button>
+    </a>
   );
 }

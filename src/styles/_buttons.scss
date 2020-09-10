@@ -1,4 +1,4 @@
-@import 'variables';
+@import "variables";
 
 /* BUTTONS */
 .button,
@@ -9,13 +9,14 @@
   cursor: pointer;
   outline: none;
   transition: color 250ms;
-  
-  &:hover, &:focus {
+
+  &:hover,
+  &:focus {
     color: $accent-color;
   }
 }
 
-@mixin button-setup ($bg-color, $padding-tb, $padding-lr, $margin, $border-color, $border-radius) {
+@mixin button-setup($bg-color, $padding-tb, $padding-lr, $margin, $border-color, $border-radius) {
   background-color: $bg-color;
   padding: $padding-tb $padding-lr;
   margin: $margin;
@@ -24,10 +25,11 @@
 }
 
 .button-outline {
-  @include button-setup(transparent, 8px, 15px, 5px, $font-color, 10px);
+  @include button-setup(transparent, 7px, 10px, 5px, $font-color, 10px);
   transition: border-color 250ms;
-  
-  &:hover, &:focus {
+
+  &:hover,
+  &:focus {
     border-color: $accent-color;
   }
 }

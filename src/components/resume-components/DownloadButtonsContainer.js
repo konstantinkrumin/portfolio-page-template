@@ -9,12 +9,12 @@ export default function DownloadButtonsContainer() {
   return (
     <div className="buttons-container">
       <ButtonOutline
-        isCV="false"
+        isCV={false}
         title={textContent.resume.buttons.resume}
         icon="cloud-download-alt"
       />
       <ButtonOutline
-        isCV="true"
+        isCV={true}
         title={textContent.resume.buttons.cv}
         icon="file-download"
       />
