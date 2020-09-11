@@ -79,13 +79,17 @@
   .button-outline {
     font-size: $font-size-sm;
   }
-}
 
-@media (orientation: landscape) and (max-height: 330px) {
-  .hero-title,
   .resume-languages-section {
     display: none;
   }
+}
+
+@media (orientation: landscape) and (max-height: 330px) {
+  // .hero-title,
+  // .resume-languages-section {
+  //   display: none;
+  // }
 
   .hero-description-text {
     font-size: $font-size-lg;
