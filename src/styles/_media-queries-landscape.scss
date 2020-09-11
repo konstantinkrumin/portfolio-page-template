@@ -75,6 +75,10 @@
   .stacklist {
     grid-template-columns: repeat(5, 1fr);
   }
+
+  .button-outline {
+    font-size: $font-size-sm;
+  }
 }
 
 @media (orientation: landscape) and (max-height: 330px) {
@@ -102,9 +106,5 @@
   .resume-left-side-item-lg,
   .resume-right-side-item-lg {
     height: 40%;
-  }
-
-  .button-outline {
-    font-size: $font-size-sm;
   }
 }
