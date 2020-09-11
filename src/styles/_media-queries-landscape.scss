@@ -1,7 +1,7 @@
 @import 'variables';
 
 /* MEDIA QUERIES (LANDSCAPE) */
-@media (orientation: landscape) and (max-height: 500px) {
+@media (orientation: landscape) and (max-height: 450px) {
   .navbar {
     height: 12vh;
   }
@@ -76,20 +76,20 @@
     grid-template-columns: repeat(5, 1fr);
   }
 
-  .button-outline {
-    font-size: $font-size-sm;
+  .buttons-container {
+    margin: 0.5rem 0;
   }
 
-  .resume-languages-section {
-    display: none;
+  .button-outline {
+    font-size: $font-size-sm;
   }
 }
 
 @media (orientation: landscape) and (max-height: 330px) {
-  // .hero-title,
-  // .resume-languages-section {
-  //   display: none;
-  // }
+  .hero-title,
+  .resume-languages-section {
+    display: none;
+  }
 
   .hero-description-text {
     font-size: $font-size-lg;
