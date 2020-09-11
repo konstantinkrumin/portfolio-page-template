@@ -1,7 +1,7 @@
 @import 'variables';
 
 /* MEDIA QUERIES (LANDSCAPE) */
-@media (orientation: landscape) and (max-height: 450px) {
+@media (orientation: landscape) and (max-height: 500px) {
   .navbar {
     height: 12vh;
   }
