@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio-page-template/static/css/main.84b08986.chunk.css",
+    "main.css": "/portfolio-page-template/static/css/main.e282de14.chunk.css",
     "main.js": "/portfolio-page-template/static/js/main.1da5a386.chunk.js",
     "main.js.map": "/portfolio-page-template/static/js/main.1da5a386.chunk.js.map",
     "runtime-main.js": "/portfolio-page-template/static/js/runtime-main.4bb3be67.js",
@@ -8,16 +8,16 @@
     "static/js/2.6585b25a.chunk.js": "/portfolio-page-template/static/js/2.6585b25a.chunk.js",
     "static/js/2.6585b25a.chunk.js.map": "/portfolio-page-template/static/js/2.6585b25a.chunk.js.map",
     "index.html": "/portfolio-page-template/index.html",
-    "precache-manifest.645c589a8f13f0ae97b00609eb099a8c.js": "/portfolio-page-template/precache-manifest.645c589a8f13f0ae97b00609eb099a8c.js",
+    "precache-manifest.b08358eccb65efef92ecaeb6c3d02a67.js": "/portfolio-page-template/precache-manifest.b08358eccb65efef92ecaeb6c3d02a67.js",
     "service-worker.js": "/portfolio-page-template/service-worker.js",
-    "static/css/main.84b08986.chunk.css.map": "/portfolio-page-template/static/css/main.84b08986.chunk.css.map",
+    "static/css/main.e282de14.chunk.css.map": "/portfolio-page-template/static/css/main.e282de14.chunk.css.map",
     "static/js/2.6585b25a.chunk.js.LICENSE.txt": "/portfolio-page-template/static/js/2.6585b25a.chunk.js.LICENSE.txt",
     "static/media/main.scss": "/portfolio-page-template/static/media/bg-image-mountain.f0ee75c9.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.4bb3be67.js",
     "static/js/2.6585b25a.chunk.js",
-    "static/css/main.84b08986.chunk.css",
+    "static/css/main.e282de14.chunk.css",
     "static/js/main.1da5a386.chunk.js"
   ]
 }
