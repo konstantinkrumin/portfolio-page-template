@@ -1,7 +1,7 @@
 @import 'variables';
 
 /* MEDIA QUERIES (PORTRAIT) */
-@media (max-width: 770px) {
+@media (orientation: portrait) and (max-width: 770px) {
   .project-tile {
     font-size: $font-size-xs;
   }
@@ -17,7 +17,7 @@
   }
 }
 
-@media (max-width: 500px) {
+@media (orientation: portrait) and (max-width: 500px) {
   .nav-md-lg-xl-screens {
     display: none;
   }
@@ -39,7 +39,7 @@
   }
 }
 
-@media (max-width: 400px) {
+@media (orientation: portrait) and (max-width: 400px) {
   .hero-tech-stack-section {
     width: 80%;
   }
@@ -55,7 +55,7 @@
   }
 }
 
-@media (max-width: 320px) {
+@media (orientation: portrait) and (max-width: 320px) {
   .button-download-resume {
     display: none;
   }
