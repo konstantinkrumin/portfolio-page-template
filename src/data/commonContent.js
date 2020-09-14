@@ -4,7 +4,8 @@ const commonContent = {
       imagePreview:
         'https://github.com/konstantinkrumin/portfolio-page-template/blob/master/src/images/portfolio-preview/calculator.jpg?raw=true',
       links: {
-        liveProject: 'https://codepen.io/konstantinkrumin/full/yLexQmy',
+        liveProject:
+          'https://konstantinkrumin.github.io/javascript-calculator/',
         codeSource: 'https://github.com/konstantinkrumin/javascript-calculator',
       },
     },

@@ -1,7 +1,8 @@
 @import 'variables';
 
 /* NAVBAR AND FOOTER */
-.navbar, .footer {
+.navbar,
+.footer {
   position: fixed;
   left: 0;
   width: 100%;
@@ -12,16 +13,22 @@
   justify-content: space-between;
 }
 
-.navbar { 
+.navbar {
   top: 0;
   height: $default-nav-height;
 }
 
-.nav-small-screens { display: none; }
+.nav-small-screens {
+  display: none;
+}
 
-a { text-decoration: none; }
+a {
+  text-decoration: none;
+}
 
-.navlink { margin: 0 5px; }
+.navlink {
+  margin: 0 5px;
+}
 
 .nav-links-sm-screen {
   position: fixed;
@@ -39,7 +46,9 @@ a { text-decoration: none; }
   transition: all 0.3s linear;
 }
 
-.show-nav { height: $default-body-height; }
+.show-nav {
+  height: $default-body-height;
+}
 
 .navlink-sm-screen {
   height: 30%;
@@ -53,11 +62,15 @@ a { text-decoration: none; }
   align-items: center;
 }
 
-.footer { 
-  bottom: 0; 
-  height: $default-footer-height; 
+.footer {
+  bottom: 0;
+  height: $default-footer-height;
 }
 
-.social-media-icons-landscape { display: none; }
+.social-media-icons-landscape {
+  display: none;
+}
 
-.profile-links { margin: 0 10px; }
+.profile-links {
+  margin: 0 10px;
+}
