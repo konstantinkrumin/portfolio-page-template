@@ -1,5 +1,23 @@
 @import 'variables';
 
+@media (min-height: 900px) {
+  .navbar {
+    height: 55px;
+  }
+
+  .footer {
+    height: 50px;
+  }
+
+  .main-section,
+  .resume-section,
+  .portfolio-section {
+    height: calc(100vh - 55px - 50px);
+    margin-top: 55px;
+    margin-bottom: 50px;
+  }
+}
+
 /* MEDIA QUERIES (LANDSCAPE) */
 @media (orientation: landscape) and (max-height: 450px) {
   .navbar {
@@ -82,6 +100,10 @@
 
   .button-outline {
     font-size: $font-size-sm;
+  }
+
+  .hide-sm-screen {
+    display: none;
   }
 }
 
