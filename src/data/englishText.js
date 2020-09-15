@@ -6,8 +6,8 @@ const englishText = {
     // resume:
     //   'https://github.com/konstantinkrumin/portfolio-page-template/blob/master/src/static/Resume_Konstantin_Krumin.pdf',
     // cv: 'https://github.com/konstantinkrumin/portfolio-page-template/blob/master/src/static/CV_Konstantin_Krumin.pdf',
-    resume: '%PUBLIC_URL%/resumes/Resume_Konstantin_Krumin.pdf',
-    cv: '%PUBLIC_URL%/resumes/CV_Konstantin_Krumin.pdf',
+    resume: '/resumes/Resume_Konstantin_Krumin.pdf',
+    cv: '/resumes/CV_Konstantin_Krumin.pdf',
   },
   navigation: {
     home: 'Home',
