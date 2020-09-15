@@ -10,6 +10,7 @@ export default function ResumeButton() {
       target="_blank"
       href={textContent.downloads.resume}
       className="button button-download-resume"
+      download
     >
       <FontAwesomeIcon icon={['fas', 'cloud-download-alt']} />{' '}
       {textContent.navigation.resume}
