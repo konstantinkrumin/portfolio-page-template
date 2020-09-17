@@ -1,6 +1,6 @@
-import React, { useContext } from "react";
+import React, { useContext } from 'react';
 
-import Context from "../../context";
+import Context from '../../context';
 
 export default function SocialMediaIcon(props) {
   const { FontAwesomeIcon } = useContext(Context);
@@ -8,6 +8,7 @@ export default function SocialMediaIcon(props) {
     <a
       href={props.href}
       target="_blank"
+      rel="noopener noreferrer"
       className={`button profile-links ${props.extraClass}`}
     >
       <FontAwesomeIcon icon={[props.iconPrefix, props.iconName]} />
